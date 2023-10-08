@@ -1,6 +1,9 @@
 # Project 2: Continuous Control Report
+---
 
 ## Learning Algorithm
+  ### Env
+  The Version 2 Reacher Environment with 20 agents was used for this project.
   ### DDPG
   The Algorithm used for this project is Deep Deterministic Policy Gradient (DDPG). DDPG combines ideas froms Value-based and Policy based methods. It it uses the actor value function dynamic from DQN represented as neural networks and policy gradient balancing using an critic to estimate the value of a state action in order to direct the actor's learning for direct action output. This direct action output allows for this algorithm to operate over continuous action spaces. We also use an experience replay to learn from past actions and use a soft updated target networks to enhance stablity.
   ### Networks
